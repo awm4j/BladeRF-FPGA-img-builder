@@ -15,3 +15,6 @@ Works best on Windows 7+ Enterprise edition
 
 Alternatively you can download bladeRF from github, place the master.zip in the current directory, and run NoPowerShell.bat
  
+
+
+After the image is built, pick up at step 3 on https://github.com/Nuand/bladeRF
