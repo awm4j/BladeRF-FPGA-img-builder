@@ -1,4 +1,16 @@
-BladeRF FPGA Image Builder
+#BladeRF FPGA Image Builder
 ========================
+*Authors: Matt M (awm4j@aol.com), Justin M*
 
-Downloads the BladeRF project and builds the FPGA image.
+Downloads the [BladeRF](https://github.com/Nuand/bladeRF) project and builds the FPGA image.
+
+##To run compileBladeRF_FPGA.bat
+
+###Requirements:
+	1. Altera 11.0+ installed
+	2. 7za.exe in the same directory as the compilation script (7zip is for extracting the code from github)
+	3. PowerShell is installed
+	4. Internet Access
+Works best on Windows 7+ Enterprise edition
+
+Alternatively you can download bladeRF from github, place the master.zip in the current directory, and run NoPowerShell.bat
