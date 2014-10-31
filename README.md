@@ -8,7 +8,7 @@ BladeRF FPGA Image Builder
 
 ###Requirements:
 	1. Altera 11.0+ installed
-	2. 7za.exe in the same directory as the compilation script (7zip is for extracting the code from github)
+	2. [7zip 32bit](http://www.7-zip.org/download.html) must be installed or [7za.exe](http://downloads.sourceforge.net/sevenzip/7za920.zip) must be in the same directory as the compilation scripts
 	3. PowerShell is installed
 	4. Internet Access
 Works best on Windows 7+ Enterprise edition
