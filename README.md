@@ -1,8 +1,8 @@
-#BladeRF FPGA Image Builder
+BladeRF FPGA Image Builder
 ========================
-*Authors: Matt M (awm4j@aol.com), Justin M*
+*Authors: Matt M, Justin M*
 
-Downloads the [BladeRF](https://github.com/Nuand/bladeRF) project and builds the FPGA image.
+>Downloads the [BladeRF](https://github.com/Nuand/bladeRF) project and builds the FPGA image.
 
 ##To run compileBladeRF_FPGA.bat
 
