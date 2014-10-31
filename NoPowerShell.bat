@@ -32,8 +32,17 @@ echo.
 pushd %~dp0
 
 echo Extracting...
-7za.exe x "master.zip" -y -o"C:\bladeRF"
 
+IF NOT EXIST C:\Program^ Files\7-Zip\NUL GOTO ZIP7zNotInstalled
+"C:\Program Files\7-Zip\7z" x "master.zip" -y -o"C:\bladeRF"
+goto extracted
+
+:ZIP7zNotInstalled
+IF NOT EXIST 7za.exe GOTO ZIP7zaEXEDNE
+7za.exe x "master.zip" -y -o"C:\bladeRF"
+goto extracted
+
+:extracted
 del master.zip
 
 echo Writing build_bladerf2.sh...
@@ -109,6 +118,12 @@ echo Altera is not installed.
 timeout /t 10
 goto exit
 
+:ZIP7zaEXEDNE
+echo 7za.exe doesn't exist.
+timeout /t 60
+goto fin
+
 :exit
-echo The bladeRF data is located in C:\bladeRF
+echo The BladeRF data is located in C:\bladeRF
+:fin
 timeout /t 60
