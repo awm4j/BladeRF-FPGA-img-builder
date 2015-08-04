@@ -12,7 +12,7 @@ BladeRF FPGA Image Builder
 3. PowerShell is installed
 4. Internet Access
 
-Works best on Windows 7+ Enterprise edition
+Tested on Windows 7, 8, and 8.1 Enterprise
 
 Alternatively you can download bladeRF from github, place the master.zip in the current directory, and run NoPowerShell.bat
  
